@@ -21,3 +21,10 @@ function doTheMath(){
 funciton isNameOddOrEven(){
     // your code here ...
 }
+
+
+/**
+ * Refactor both the above functions to be arrow functions.
+ */
+
+
