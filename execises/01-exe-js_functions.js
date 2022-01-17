@@ -10,3 +10,14 @@
 function doTheMath(){
     // your code here ...
 }
+
+
+/**
+ * Create a function named isNameOddOrEven() that accepts a string as a parameter.
+ * The function should return whether a received string has an odd or even number of letters.
+ * The expected return should be in the following format - string: "has an even/odd number of letters".
+ */
+
+funciton isNameOddOrEven(){
+    // your code here ...
+}
