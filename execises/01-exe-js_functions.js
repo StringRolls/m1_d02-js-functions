@@ -7,9 +7,55 @@
  * Hint: you can use the switch statement.
  */
 
-function doTheMath(){
-    // your code here ...
-}
+// 1
+
+// num1, num2, sign => are just PLACEHOLDERS, it can be any word
+const doTheMath = function(num1, sign, num2){
+    switch(sign){
+      case "+":
+        return num1 + num2;
+      case "-":
+        return num1 - num2;
+      case "*":
+        return num1 * num2;
+      case "/":
+        return num1 / num2;
+      case "%":
+        return num1 % num2;
+      case "**":
+        return num1 ** num2;
+      default:
+        return 'Please insert the valid operator!';
+    }
+  }
+  
+  // doTheMath(3, "*", 5) // 15
+  doTheMath(5, "/", 2) // 2.5
+  
+  // ********************************************************************************
+  // 2
+  
+  const doTheMath = (num1, sign, num2) => {
+    switch(sign){
+      case "+":
+        return num1 + num2;
+      case "-":
+        return num1 - num2;
+      case "*":
+        return num1 * num2;
+      case "/":
+        return num1 / num2;
+      case "%":
+        return num1 % num2;
+      case "**":
+        return num1 ** num2;
+      default:
+        return 'Please insert the valid operator!';
+    }
+  }
+  
+  // doTheMath(3, "*", 5) // 15
+  doTheMath(5, "/", 2) // 2.5
 
 
 /**
@@ -18,7 +64,7 @@ function doTheMath(){
  * The expected return should be in the following format - string: "has an even/odd number of letters".
  */
 
-funciton isNameOddOrEven(){
+function isNameOddOrEven(){
     // your code here ...
 }
 
